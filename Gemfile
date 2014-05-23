@@ -5,11 +5,11 @@ ruby '2.0.0'
 gem 'rails', '4.0.5'
 gem 'bootstrap-sass', '2.3.2.0'
 gem 'sprockets', '2.11.0'
+gem 'pg','0.15.1'
 
 group :development do
   gem 'pg','0.15.1'
   gem 'rspec-rails', '2.13.1'
-  gem 'guard-rspec', '2.5.0'
 end
 
 group :test do
