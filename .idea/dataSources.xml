@@ -5,24 +5,24 @@
       <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://127.0.0.1/sample_dev</jdbc-url>
-      <user-name>sample_user</user-name>
-      <user-password>df9bdf98df99df9edf9fdf9cdf9ddf92df93</user-password>
+      <user-name>juliobitar</user-name>
+      <user-password>dfcbdfd9dfd9dfcbdfd9dfd9dfc3dfc4dfdadfc5dfc3dfc4dfde</user-password>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails sample_app: test" uuid="849031d6-8999-4891-b22d-155e02ba5c43">
       <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://127.0.0.1/sample_test</jdbc-url>
-      <user-name>sample_user</user-name>
-      <user-password>df9bdf98df99df9edf9fdf9cdf9ddf92df93</user-password>
+      <user-name>juliobitar</user-name>
+      <user-password>dfcbdfd9dfd9dfcbdfd9dfd9dfc3dfc4dfdadfc5dfc3dfc4dfde</user-password>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails sample_app: production" uuid="923c6a76-e6f9-43fc-a0c2-0368b369bb87">
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://127.0.0.1/sample_prod</jdbc-url>
-      <user-name>sample_user</user-name>
-      <user-password>df9bdf98df99df9edf9fdf9cdf9ddf92df93</user-password>
+      <user-name>juliobitar</user-name>
+      <user-password>dfcbdfd9dfd9dfcbdfd9dfd9dfc3dfc4dfdadfc5dfc3dfc4dfde</user-password>
       <libraries />
     </data-source>
   </component>
