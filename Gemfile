@@ -8,7 +8,6 @@ gem 'sprockets', '2.11.0'
 gem 'pg','0.15.1'
 
 group :development do
-  gem 'pg','0.15.1'
   gem 'rspec-rails', '2.13.1'
 end
 
