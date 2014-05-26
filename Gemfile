@@ -20,13 +20,9 @@ group :test do
   gem 'selenium-webdriver', '2.35.1'
   gem 'capybara', '2.1.0'
 end
-<<<<<<< HEAD
+
 # Uncomment this line on OS X.
 gem 'growl', '1.0.3'
-
-=======
-gem 'growl', '1.0.3'
->>>>>>> static-pages
 gem 'sass-rails', '4.0.1'
 gem 'uglifier', '2.1.1'
 gem 'coffee-rails', '4.0.1'
