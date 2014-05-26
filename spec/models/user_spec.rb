@@ -19,6 +19,13 @@ describe User do
   it { should respond_to(:authenticate) }
 
 
+  describe "profile page" do
+    # Replace with code to make a user variable
+    before { visit user_path(user) }
+
+    it { should have_content(user.name) }
+    it { should have_title(user.name) }
+  end
   describe "when name is not present" do
     before { @user.name = " " }
     it { should_not be_valid }
