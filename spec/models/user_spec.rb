@@ -45,21 +45,20 @@ describe User do
   describe "status" do
     let(:unfollowed_post) do
       FactoryGirl.create(:micropost, user: FactoryGirl.create(:user))
-    end
 
     its(:feed) { should include(newer_micropost) }
     its(:feed) { should include(older_micropost) }
     its(:feed) { should_not include(unfollowed_post) }
-  end
+    end
+    end
 
-  it "should destroy associated microposts" do
+    it "should destroy associated microposts" do
     microposts = @user.microposts.to_a
     @user.destroy
     expect(microposts).not_to be_empty
     microposts.each do |micropost|
       expect(Micropost.where(id: micropost.id)).to be_empty
     end
-  end
   describe "with admin attribute set to 'true'" do
     before do
       @user.save!
@@ -155,5 +154,7 @@ describe User do
         expect(@user.reload.email).to eq mixed_case_email.downcase
       end
     end
+  end
     end
+
 end

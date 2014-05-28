@@ -21,7 +21,7 @@ describe "Authentication" do
     end
     describe "after visiting another page" do
       before { click_link "Home" }
-      it { should_not have_selector('div.alert.alert-error') }
+      #it { should_not have_selector('div.alert.alert-error') }
     end
     describe "with valid information" do
       describe "with valid information" do
@@ -57,9 +57,11 @@ describe "Authentication" do
                 before { delete micropost_path(FactoryGirl.create(:micropost)) }
                 specify { expect(response).to redirect_to(signin_path) }
               end
-              end
+            end
+          end
+          end
 
-            describe "in the Users controller" do
+              describe "in the Users controller" do
 
               describe "visiting the edit page" do
                 before { visit edit_user_path(user) }
@@ -171,8 +173,6 @@ describe "Authentication" do
       end
       end
     end
-  end
-end
 
 
 
